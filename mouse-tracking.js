@@ -11,7 +11,7 @@ var TrackMouse = function (mouseEvent) {
     console.log( "X: " + mouseEvent.x + ", Y: " + mouseEvent.y + "\n");
 };
 
-document.getElementById("gameContainer").addEventListener('click', TrackMouse);
+document.addEventListener('click', TrackMouse);
 // document.addEventListener('mousemove', TrackMouse);
 // document.addEventListener('mousedown', TrackMouse);
 // document.addEventListener('mouseup', TrackMouse);
