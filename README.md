@@ -1,4 +1,4 @@
-Follow ME! A Simon Clone
+Simon CI Clone
 ================================
 
 Here's a fully commented version of the famous game - Simon - in javascript, built using Phaser game engine. We use this to demonstrate CI testing capabilities for our capstone.
