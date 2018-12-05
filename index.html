@@ -7,27 +7,11 @@
 	<script src="Boot.js"></script>
 	<script src="Preloader.js"></script>
 	<script src="Game.js"></script>
+	<script type="text/javascript" src="mouse-tracking.js"></script>
 </head>
 <body style="margin:0px;" bgcolor="#000000">
 
 <div id="gameContainer"></div>
-
-<script type="text/javascript">
-
-
-window.onload = function() {
-
-	var game = new Phaser.Game(360,600, Phaser.AUTO, 'gameContainer');
-
-	game.state.add('Boot', BasicGame.Boot);
-	game.state.add('Preloader', BasicGame.Preloader);
-	game.state.add('Game', BasicGame.Game);
-
-	game.state.start('Boot');
-
-};
-
-</script>
-
+<script type="text/javascript" src="load.js"></script>
 </body>
 </html>

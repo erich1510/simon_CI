@@ -156,7 +156,7 @@ BasicGame.Game.prototype = {
         //function that actually makes the boxes blink
         this.sound.stopAll();
         this.boxes.callAll('defaultFr');
-        this.boxes.setAll('inputEnabled',false);
+        this.boxes.setAll('inputEnabled',true);
         a.glowFrame();
         if(this.playSound==true){
             //sounds played only if toggle set to true - controlled by musicToggle function
