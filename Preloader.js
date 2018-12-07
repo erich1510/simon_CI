@@ -23,7 +23,6 @@ BasicGame.Preloader.prototype = {
 		this.preloadBar.anchor.setTo(0,0.5);
 		this.preloadBar.scale.setTo(0.5,1);
 		this.preloadBar.x = this.world.centerX - this.preloadBar.width/2;
-		this.load.se
 		this.load.atlas('spriteset', 'assets/spriteset.png', 'assets/spriteset.jsona');
 		this.load.image('tweet','assets/twit.png');
 		this.load.audio('sfx', ['assets/sfx.mp3','assets/sfx.ogg','assets/sfx.wav','assets/sfx.m4a']);

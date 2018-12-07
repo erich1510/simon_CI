@@ -39,7 +39,7 @@ BasicGame.Boot.prototype = {
             this.scale.pageAlignHorizontally = true;
         }
 
-        this.scale.setScreenSize(true);
+        // this.scale.setScreenSize(true);
         this.state.start('Preloader');
 
     }
