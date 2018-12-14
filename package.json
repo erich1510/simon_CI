@@ -1,0 +1,19 @@
+{
+  "name": "simon_ci",
+  "version": "1.0.0",
+  "description": "Simon CI Clone\r ================================",
+  "main": "Boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erich1510/simon_CI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erich1510/simon_CI/issues"
+  },
+  "homepage": "https://github.com/erich1510/simon_CI#readme"
+}
